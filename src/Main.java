@@ -103,9 +103,9 @@ public class Main {
                 case 9:
                     System.out.println();
                     System.out.println("╔══════════════════════════════════════════════╗");
-                    System.out.println("║           SALIENDO DEL SISTEMA              ║");
-                    System.out.println("║       Gracias por su preferencia            ║");
-                    System.out.println("║              🎬 CINEPLANET 🎬               ║");
+                    System.out.println("║            SALIENDO DEL SISTEMA              ║");
+                    System.out.println("║        Gracias por su preferencia            ║");
+                    System.out.println("║               🎬 CINEPLANET 🎬               ║");
                     System.out.println("╚══════════════════════════════════════════════╝");
                     break;
                 default:
@@ -123,7 +123,7 @@ public class Main {
 
         System.out.println();
         System.out.println("╔══════════════════════════════════════════════╗");
-        System.out.println("║          🎬 CINEPLANET - JULIACA 🎬         ║");
+        System.out.println("║           🎬 CINEPLANET - JULIACA 🎬         ║");
         System.out.println("╚══════════════════════════════════════════════╝");
         System.out.println("   1. 🎥 Ver cartelera y sinopsis");
         System.out.println("   2. 🎭 Películas por categoría");
@@ -149,7 +149,7 @@ public class Main {
         do {
             System.out.println();
             System.out.println("┌──────────────────────────────────────────────┐");
-            System.out.println("│              🎥 CARTELERA                   │");
+            System.out.println("│               🎥 CARTELERA                   │");
             System.out.println("└──────────────────────────────────────────────┘");
 
             for (int i = 0; i < peliculas.length; i++) {
@@ -179,7 +179,7 @@ public class Main {
     public static void mostrarDetallePelicula(int pelicula) {
         System.out.println();
         System.out.println("╔══════════════════════════════════════════════╗");
-        System.out.println("║            INFORMACIÓN DE PELÍCULA          ║");
+        System.out.println("║             INFORMACIÓN DE PELÍCULA          ║");
         System.out.println("╚══════════════════════════════════════════════╝");
         System.out.println("  🎬 Título     : " + peliculas[pelicula]);
         System.out.println("  🎭 Categoría  : " + categorias[pelicula]);
@@ -214,7 +214,7 @@ public class Main {
         do {
             System.out.println();
             System.out.println("╔══════════════════════════════════════════════╗");
-            System.out.println("║              🎭 CATEGORÍAS                  ║");
+            System.out.println("║               🎭 CATEGORÍAS                  ║");
             System.out.println("╚══════════════════════════════════════════════╝");
             System.out.println("   1. 💥 Acción");
             System.out.println("   2. 🧸 Animación");
@@ -259,7 +259,7 @@ public class Main {
 
         System.out.println();
         System.out.println("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒");
-        System.out.println("     🎬 PELÍCULAS DE " + categoriaBuscada.toUpperCase());
+        System.out.println("        🎬 PELÍCULAS DE " + categoriaBuscada.toUpperCase());
         System.out.println("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒");
 
         boolean encontrado = false;
@@ -287,7 +287,7 @@ public class Main {
 
         System.out.println();
         System.out.println("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-        System.out.println("┃           🎬 TODAS LAS PELÍCULAS            ┃");
+        System.out.println("┃           🎬 TODAS LAS PELÍCULAS             ┃");
         System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
 
         for (int i = 0; i < peliculas.length; i++) {
@@ -308,7 +308,7 @@ public class Main {
 
         System.out.println();
         System.out.println("┌──────────────────────────────────────────────┐");
-        System.out.println("│               🕐 HORARIOS                   │");
+        System.out.println("│               🕐 HORARIOS                    │");
         System.out.println("└──────────────────────────────────────────────┘");
 
         for (int i = 0; i < peliculas.length; i++) {
@@ -325,7 +325,7 @@ public class Main {
 
         System.out.println();
         System.out.println("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-        System.out.println("┃                FUNCIONES                    ┃");
+        System.out.println("┃                 FUNCIONES                    ┃");
         System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
 
         for (int i = 0; i < peliculas.length; i++) {
@@ -356,7 +356,7 @@ public class Main {
 
         System.out.println();
         System.out.println("╔══════════════════════════════════════════════════════════════╗");
-        System.out.println("║                   💺 MAPA DE ASIENTOS                      ║");
+        System.out.println("║                     💺 MAPA DE ASIENTOS                      ║");
         System.out.println("╚══════════════════════════════════════════════════════════════╝");
         System.out.println("🎬 Película : " + peliculas[funcion]);
         System.out.println("🕐 Horario  : " + horarios[funcion]);
@@ -409,7 +409,7 @@ public class Main {
         do {
             System.out.println();
             System.out.println("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★");
-            System.out.println("             🎟 COMPRA DE ENTRADAS");
+            System.out.println("                      🎟 COMPRA DE ENTRADAS");
             System.out.println("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★");
 
             int funcion = seleccionarFuncion();
@@ -556,7 +556,7 @@ public class Main {
                 // ================================================
                 System.out.println();
                 System.out.println("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-                System.out.println("┃             RESUMEN DE COMPRA               ┃");
+                System.out.println("┃             RESUMEN DE COMPRA                ┃");
                 System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
                 System.out.println("Cliente  : " + cliente);
                 System.out.println("DNI      : " + dni);
@@ -583,400 +583,172 @@ public class Main {
                     // MÉTODO DE PAGO
                     String metodoPago = seleccionarMetodoPago(total);
                     if (metodoPago.equals("CANCELADO")) {
-                        System.out.println(
-                                "\n❌ COMPRA CANCELADA."
-                        );
-
-                        System.out.println(
-                                "Los asientos continúan disponibles."
-                        );
+                        System.out.println("\n❌ COMPRA CANCELADA.");
+                        System.out.println("Los asientos continúan disponibles.");
                     }
-
-
                     else {
-
                         // =========================================
                         // MARCAR ASIENTOS OCUPADOS
                         // =========================================
-
-                        for (int i = 0;
-                             i < cantidad;
-                             i++) {
-
-                            int posicion =
-                                    asientosComprados[i] - 1;
-
-                            asientos[funcion][posicion] =
-                                    true;
+                        for (int i = 0; i < cantidad; i++) {
+                            int posicion = asientosComprados[i] - 1;
+                            asientos[funcion][posicion] = true;
                         }
-
 
                         // =========================================
                         // ACTUALIZAR ESTADÍSTICAS
                         // =========================================
-
-                        entradasVendidas =
-                                entradasVendidas +
-                                        cantidad;
-
-
-                        totalRecaudado =
-                                totalRecaudado +
-                                        total;
-
+                        entradasVendidas = entradasVendidas + cantidad;
+                        totalRecaudado = totalRecaudado + total;
 
                         System.out.println();
-                        System.out.println(
-                                "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★"
-                        );
-
-                        System.out.println(
-                                "        ✅ COMPRA REALIZADA CON ÉXITO"
-                        );
-
-                        System.out.println(
-                                "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★"
-                        );
-
+                        System.out.println("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★");
+                        System.out.println("                  ✅ COMPRA REALIZADA CON ÉXITO");
+                        System.out.println("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★");
 
                         // =========================================
                         // GENERAR BOLETA
                         // =========================================
 
-                        generarBoleta(
-                                cliente,
-                                dni,
-                                funcion,
-                                asientosComprados,
-                                tipos,
-                                precios,
-                                total,
-                                metodoPago
-                        );
+                        generarBoleta(cliente, dni, funcion, asientosComprados, tipos, precios, total, metodoPago);
                     }
-
                 } else {
-
-                    System.out.println(
-                            "\n❌ Compra cancelada."
-                    );
-
-                    System.out.println(
-                            "Los asientos continúan disponibles."
-                    );
+                    System.out.println("\n❌ Compra cancelada.");
+                    System.out.println("Los asientos continúan disponibles.");
                 }
             }
-
 
             // ====================================================
             // REALIZAR OTRA COMPRA
             // ====================================================
 
             System.out.println();
-            System.out.println(
-                    "────────────────────────────────────────────────"
-            );
-
-            System.out.println(
-                    "1. Realizar otra compra"
-            );
-
-            System.out.println(
-                    "0. Volver al menú principal"
-            );
-
-            System.out.print(
-                    "Seleccione una opción: "
-            );
-
-            nuevaCompra =
-                    sc.nextInt();
-
-
+            System.out.println("────────────────────────────────────────────────");
+            System.out.println("1. Realizar otra compra");
+            System.out.println("0. Volver al menú principal");
+            System.out.print("Seleccione una opción: ");
+            nuevaCompra = sc.nextInt();
         } while (nuevaCompra == 1);
     }
-
 
     // ============================================================
     // 12. COMPROBAR ASIENTO REPETIDO
     // ============================================================
 
-    public static boolean asientoYaSeleccionado(
-            int[] seleccionados,
-            int numero,
-            int cantidadSeleccionada) {
+    public static boolean asientoYaSeleccionado(int[] seleccionados, int numero, int cantidadSeleccionada) {
 
-
-        for (int i = 0;
-             i < cantidadSeleccionada;
-             i++) {
-
-
-            if (seleccionados[i] ==
-                    numero) {
-
+        for (int i = 0; i < cantidadSeleccionada; i++) {
+            if (seleccionados[i] == numero) {
                 return true;
             }
         }
-
-
         return false;
     }
-
 
     // ============================================================
     // 13. MÉTODO DE PAGO
     // ============================================================
 
-    public static String seleccionarMetodoPago(
-            double total) {
-
+    public static String seleccionarMetodoPago(double total) {
 
         int opcionPago;
-
 
         // Reiniciar valores
         montoRecibido = 0;
         vuelto = 0;
 
-
         do {
-
             System.out.println();
-            System.out.println(
-                    "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
-            );
+            System.out.println("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            System.out.println("┃              💳 MÉTODO DE PAGO               ┃");
+            System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            System.out.println("1. 💵 Efectivo");
+            System.out.println("2. 💳 Tarjeta");
+            System.out.println("3. 📱 Yape / Plin");
+            System.out.println("0. Cancelar compra");
+            System.out.println("────────────────────────────────────────────────");
+            System.out.printf("TOTAL A PAGAR: S/ %.2f%n", total);
+            System.out.print("\nSeleccione: ");
 
-            System.out.println(
-                    "┃              💳 MÉTODO DE PAGO              ┃"
-            );
-
-            System.out.println(
-                    "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
-            );
-
-
-            System.out.println(
-                    "1. 💵 Efectivo"
-            );
-
-            System.out.println(
-                    "2. 💳 Tarjeta"
-            );
-
-            System.out.println(
-                    "3. 📱 Yape / Plin"
-            );
-
-            System.out.println(
-                    "0. Cancelar compra"
-            );
-
-
-            System.out.println(
-                    "────────────────────────────────────────────────"
-            );
-
-
-            System.out.printf(
-                    "TOTAL A PAGAR: S/ %.2f%n",
-                    total
-            );
-
-
-            System.out.print(
-                    "\nSeleccione: "
-            );
-
-
-            opcionPago =
-                    sc.nextInt();
-
+            opcionPago = sc.nextInt();
 
             switch (opcionPago) {
-
-
                 // ================================================
                 // EFECTIVO
                 // ================================================
-
                 case 1:
-
-                    System.out.println(
-                            "\n────────── PAGO EN EFECTIVO ──────────"
-                    );
-
-
+                    System.out.println("\n────────── PAGO EN EFECTIVO ──────────");
                     do {
+                        System.out.printf("Monto a pagar: S/ %.2f%n", total);
+                        System.out.print("Monto recibido: S/ ");
+                        montoRecibido = sc.nextDouble();
 
-                        System.out.printf(
-                                "Monto a pagar: S/ %.2f%n",
-                                total
-                        );
-
-
-                        System.out.print(
-                                "Monto recibido: S/ "
-                        );
-
-
-                        montoRecibido =
-                                sc.nextDouble();
-
-
-                        if (montoRecibido <
-                                total) {
-
-                            System.out.println(
-                                    "❌ Monto insuficiente."
-                            );
-
-                            System.out.println(
-                                    "Ingrese nuevamente."
-                            );
+                        if (montoRecibido < total) {
+                            System.out.println("❌ Monto insuficiente.");
+                            System.out.println("Ingrese nuevamente.");
                         }
+                    } while (montoRecibido < total);
 
+                    vuelto = montoRecibido - total;
 
-                    } while (
-                            montoRecibido < total
-                    );
-
-
-                    vuelto =
-                            montoRecibido -
-                                    total;
-
-
-                    System.out.printf(
-                            "Vuelto: S/ %.2f%n",
-                            vuelto
-                    );
-
-
+                    System.out.printf("Vuelto: S/ %.2f%n", vuelto);
                     return "Efectivo";
-
 
                 // ================================================
                 // TARJETA
                 // ================================================
-
                 case 2:
-
-                    montoRecibido =
-                            total;
-
+                    montoRecibido = total;
                     vuelto = 0;
-
-
-                    System.out.println(
-                            "\n💳 Pago con tarjeta procesado correctamente."
-                    );
-
-
+                    System.out.println("\n💳 Pago con tarjeta procesado correctamente.");
                     return "Tarjeta";
-
 
                 // ================================================
                 // YAPE / PLIN
                 // ================================================
-
                 case 3:
-
-                    montoRecibido =
-                            total;
-
+                    montoRecibido = total;
                     vuelto = 0;
-
-
-                    System.out.println(
-                            "\n📱 Pago mediante Yape / Plin registrado."
-                    );
-
-
+                    System.out.println("\n📱 Pago mediante Yape / Plin registrado.");
                     return "Yape / Plin";
-
 
                 // ================================================
                 // CANCELAR
                 // ================================================
-
                 case 0:
-
                     return "CANCELADO";
-
-
                 default:
-
-                    System.out.println(
-                            "❌ Método de pago incorrecto."
-                    );
+                    System.out.println("❌ Método de pago incorrecto.");
             }
-
-
         } while (true);
     }
-
 
     // ============================================================
     // 14. GENERAR BOLETA
     // ============================================================
-
-    public static void generarBoleta(
-            String cliente,
-            String dni,
-            int funcion,
-            int[] asientosComprados,
-            String[] tipos,
-            double[] precios,
-            double total,
-            String metodoPago) {
-
+    public static void generarBoleta(String cliente, String dni, int funcion, int[] asientosComprados, String[] tipos, double[] precios, double total, String metodoPago) {
 
         // ========================================================
         // FECHA Y HORA
         // ========================================================
-
-        LocalDateTime ahora =
-                LocalDateTime.now();
-
-
-        DateTimeFormatter formato =
-                DateTimeFormatter.ofPattern(
-                        "dd/MM/yyyy HH:mm:ss"
-                );
-
-
-        String fecha =
-                ahora.format(formato);
-
+        LocalDateTime ahora = LocalDateTime.now();
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        String fecha = ahora.format(formato);
 
         // Número de operación
-        String numeroBoleta =
-                "CP-" +
-                        System.currentTimeMillis();
-
+        String numeroBoleta = "CP-" + System.currentTimeMillis();
 
         // ========================================================
         // CALCULAR IGV
         // ========================================================
-
         /*
            Los precios YA incluyen IGV.
-
            Por eso:
-
            Valor venta = total / 1.18
-
            IGV = total - valor venta
         */
-
-        double valorVenta =
-                total / (1 + IGV);
-
-
-        double montoIGV =
-                total - valorVenta;
-
+        double valorVenta = total / (1 + IGV);
+        double montoIGV = total - valorVenta;
 
         // ========================================================
         // MOSTRAR BOLETA
@@ -984,731 +756,220 @@ public class Main {
 
         System.out.println();
         System.out.println();
+        System.out.println("╔════════════════════════════════════════════════╗");
+        System.out.println("║                  CINEPLANET                    ║");
+        System.out.println("║                    JULIACA                     ║");
+        System.out.println("╠════════════════════════════════════════════════╣");
+        System.out.println("║                 BOLETA DE VENTA                ║");
+        System.out.println("╚════════════════════════════════════════════════╝");
+        System.out.println("N° Boleta : " + numeroBoleta);
+        System.out.println("Fecha     : " + fecha);
+        System.out.println("Cliente   : " + cliente);
+        System.out.println("DNI       : " + dni);
+        System.out.println("────────────────────────────────────────────────");
+        System.out.println("Película  : " + peliculas[funcion]);
+        System.out.println("Categoría : " + categorias[funcion]);
+        System.out.println("Horario   : " + horarios[funcion]);
+        System.out.println("────────────────────────────────────────────────");
+        System.out.printf("%-10s %-15s %12s%n", "ASIENTO", "TIPO", "PRECIO");
+        System.out.println("────────────────────────────────────────────────");
 
-        System.out.println(
-                "╔════════════════════════════════════════════════╗"
-        );
-
-        System.out.println(
-                "║                  CINEPLANET                    ║"
-        );
-
-        System.out.println(
-                "║                    JULIACA                     ║"
-        );
-
-        System.out.println(
-                "╠════════════════════════════════════════════════╣"
-        );
-
-        System.out.println(
-                "║                 BOLETA DE VENTA                ║"
-        );
-
-        System.out.println(
-                "╚════════════════════════════════════════════════╝"
-        );
-
-
-        System.out.println(
-                "N° Boleta : " +
-                        numeroBoleta
-        );
-
-        System.out.println(
-                "Fecha     : " +
-                        fecha
-        );
-
-        System.out.println(
-                "Cliente   : " +
-                        cliente
-        );
-
-        System.out.println(
-                "DNI       : " +
-                        dni
-        );
-
-
-        System.out.println(
-                "────────────────────────────────────────────────"
-        );
-
-
-        System.out.println(
-                "Película  : " +
-                        peliculas[funcion]
-        );
-
-        System.out.println(
-                "Categoría : " +
-                        categorias[funcion]
-        );
-
-        System.out.println(
-                "Horario   : " +
-                        horarios[funcion]
-        );
-
-
-        System.out.println(
-                "────────────────────────────────────────────────"
-        );
-
-
-        System.out.printf(
-                "%-10s %-15s %12s%n",
-                "ASIENTO",
-                "TIPO",
-                "PRECIO"
-        );
-
-
-        System.out.println(
-                "────────────────────────────────────────────────"
-        );
-
-
-        for (int i = 0;
-             i < asientosComprados.length;
-             i++) {
-
-
-            System.out.printf(
-                    "%-10d %-15s S/ %8.2f%n",
-                    asientosComprados[i],
-                    tipos[i],
-                    precios[i]
-            );
+        for (int i = 0; i < asientosComprados.length; i++) {
+            System.out.printf("%-10d %-15s S/ %8.2f%n", asientosComprados[i], tipos[i], precios[i]);
         }
-
-
-        System.out.println(
-                "────────────────────────────────────────────────"
-        );
-
-
-        System.out.printf(
-                "%-28s S/ %8.2f%n",
-                "Valor de venta:",
-                valorVenta
-        );
-
-
-        System.out.printf(
-                "%-28s S/ %8.2f%n",
-                "IGV (18%):",
-                montoIGV
-        );
-
-
-        System.out.println(
-                "────────────────────────────────────────────────"
-        );
-
-
-        System.out.printf(
-                "%-28s S/ %8.2f%n",
-                "TOTAL:",
-                total
-        );
-
-
-        System.out.println(
-                "────────────────────────────────────────────────"
-        );
-
-
-        System.out.println(
-                "Método de pago : " +
-                        metodoPago
-        );
-
+        System.out.println("────────────────────────────────────────────────");
+        System.out.printf("%-28s S/ %8.2f%n", "Valor de venta:", valorVenta);
+        System.out.printf("%-28s S/ %8.2f%n", "IGV (18%):", montoIGV);
+        System.out.println("────────────────────────────────────────────────");
+        System.out.printf("%-28s S/ %8.2f%n", "TOTAL:", total);
+        System.out.println("────────────────────────────────────────────────");
+        System.out.println("Método de pago : " + metodoPago);
 
         // Solo efectivo muestra recibido y vuelto
-        if (metodoPago.equals(
-                "Efectivo")) {
-
-
-            System.out.printf(
-                    "Monto recibido  : S/ %.2f%n",
-                    montoRecibido
-            );
-
-
-            System.out.printf(
-                    "Vuelto          : S/ %.2f%n",
-                    vuelto
-            );
+        if (metodoPago.equals("Efectivo")) {
+            System.out.printf("Monto recibido  : S/ %.2f%n", montoRecibido);
+            System.out.printf("Vuelto          : S/ %.2f%n", vuelto);
         }
 
-
-        System.out.println(
-                "════════════════════════════════════════════════"
-        );
-
-        System.out.println(
-                "         ★ ¡GRACIAS POR SU COMPRA! ★"
-        );
-
-        System.out.println(
-                "             🍿 DISFRUTE SU PELÍCULA"
-        );
-
-        System.out.println(
-                "════════════════════════════════════════════════"
-        );
-
+        System.out.println("════════════════════════════════════════════════");
+        System.out.println("         ★ ¡GRACIAS POR SU COMPRA! ★");
+        System.out.println("           🍿 DISFRUTE SU PELÍCULA");
+        System.out.println("════════════════════════════════════════════════");
 
         // ========================================================
         // GUARDAR EN ARCHIVO
         // ========================================================
-
-        guardarBoletaArchivo(
-                numeroBoleta,
-                fecha,
-                cliente,
-                dni,
-                funcion,
-                asientosComprados,
-                tipos,
-                precios,
-                valorVenta,
-                montoIGV,
-                total,
-                metodoPago
-        );
+        guardarBoletaArchivo(numeroBoleta, fecha, cliente, dni, funcion, asientosComprados, tipos, precios, valorVenta, montoIGV, total, metodoPago);
     }
-
 
     // ============================================================
     // 15. GUARDAR BOLETA EN ARCHIVO TXT
     // ============================================================
 
-    public static void guardarBoletaArchivo(
-            String numeroBoleta,
-            String fecha,
-            String cliente,
-            String dni,
-            int funcion,
-            int[] asientosComprados,
-            String[] tipos,
-            double[] precios,
-            double valorVenta,
-            double montoIGV,
-            double total,
-            String metodoPago) {
+    public static void guardarBoletaArchivo(String numeroBoleta, String fecha, String cliente, String dni, int funcion, int[] asientosComprados, String[] tipos, double[] precios, double valorVenta, double montoIGV, double total, String metodoPago) {
 
-
-        String nombreArchivo =
-                "Boleta_" +
-                        numeroBoleta +
-                        ".txt";
-
+        String nombreArchivo = "Boleta_" + numeroBoleta + ".txt";
 
         try {
+            FileWriter archivo = new FileWriter(nombreArchivo);
+            PrintWriter boleta = new PrintWriter(archivo);
+            boleta.println("================================================");
+            boleta.println("                 CINEPLANET");
+            boleta.println("                   JULIACA");
+            boleta.println("================================================");
+            boleta.println("               BOLETA DE VENTA");
+            boleta.println("------------------------------------------------");
+            boleta.println("N° Boleta : " + numeroBoleta);
+            boleta.println("Fecha     : " + fecha);
+            boleta.println("Cliente   : " + cliente);
+            boleta.println("DNI       : " + dni);
+            boleta.println("------------------------------------------------");
+            boleta.println("Película  : " + peliculas[funcion]);
+            boleta.println("Categoría : " + categorias[funcion]);
+            boleta.println("Horario   : " + horarios[funcion]);
+            boleta.println("------------------------------------------------");
+            boleta.printf("%-10s %-15s %12s%n", "ASIENTO", "TIPO", "PRECIO");
+            boleta.println("------------------------------------------------");
 
-            FileWriter archivo =
-                    new FileWriter(
-                            nombreArchivo
-                    );
-
-
-            PrintWriter boleta =
-                    new PrintWriter(
-                            archivo
-                    );
-
-
-            boleta.println(
-                    "================================================"
-            );
-
-            boleta.println(
-                    "                 CINEPLANET"
-            );
-
-            boleta.println(
-                    "                   JULIACA"
-            );
-
-            boleta.println(
-                    "================================================"
-            );
-
-            boleta.println(
-                    "               BOLETA DE VENTA"
-            );
-
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            boleta.println(
-                    "N° Boleta : " +
-                            numeroBoleta
-            );
-
-            boleta.println(
-                    "Fecha     : " +
-                            fecha
-            );
-
-            boleta.println(
-                    "Cliente   : " +
-                            cliente
-            );
-
-            boleta.println(
-                    "DNI       : " +
-                            dni
-            );
-
-
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            boleta.println(
-                    "Película  : " +
-                            peliculas[funcion]
-            );
-
-            boleta.println(
-                    "Categoría : " +
-                            categorias[funcion]
-            );
-
-            boleta.println(
-                    "Horario   : " +
-                            horarios[funcion]
-            );
-
-
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            boleta.printf(
-                    "%-10s %-15s %12s%n",
-                    "ASIENTO",
-                    "TIPO",
-                    "PRECIO"
-            );
-
-
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            for (int i = 0;
-                 i < asientosComprados.length;
-                 i++) {
-
-
-                boleta.printf(
-                        "%-10d %-15s S/ %8.2f%n",
-                        asientosComprados[i],
-                        tipos[i],
-                        precios[i]
-                );
+            for (int i = 0; i < asientosComprados.length; i++) {
+                boleta.printf("%-10d %-15s S/ %8.2f%n", asientosComprados[i], tipos[i], precios[i]);
             }
 
+            boleta.println("------------------------------------------------");
+            boleta.printf("%-28s S/ %8.2f%n", "Valor de venta:", valorVenta);
+            boleta.printf("%-28s S/ %8.2f%n", "IGV (18%):", montoIGV);
+            boleta.println("------------------------------------------------");
+            boleta.printf("%-28s S/ %8.2f%n", "TOTAL:", total);
+            boleta.println("------------------------------------------------");
+            boleta.println("Método de pago : " + metodoPago);
 
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            boleta.printf(
-                    "%-28s S/ %8.2f%n",
-                    "Valor de venta:",
-                    valorVenta
-            );
-
-
-            boleta.printf(
-                    "%-28s S/ %8.2f%n",
-                    "IGV (18%):",
-                    montoIGV
-            );
-
-
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            boleta.printf(
-                    "%-28s S/ %8.2f%n",
-                    "TOTAL:",
-                    total
-            );
-
-
-            boleta.println(
-                    "------------------------------------------------"
-            );
-
-
-            boleta.println(
-                    "Método de pago : " +
-                            metodoPago
-            );
-
-
-            if (metodoPago.equals(
-                    "Efectivo")) {
-
-
-                boleta.printf(
-                        "Monto recibido  : S/ %.2f%n",
-                        montoRecibido
-                );
-
-
-                boleta.printf(
-                        "Vuelto          : S/ %.2f%n",
-                        vuelto
-                );
+            if (metodoPago.equals("Efectivo")) {
+                boleta.printf("Monto recibido  : S/ %.2f%n", montoRecibido);
+                boleta.printf("Vuelto          : S/ %.2f%n", vuelto);
             }
-
-
-            boleta.println(
-                    "================================================"
-            );
-
-            boleta.println(
-                    "          ¡GRACIAS POR SU COMPRA!"
-            );
-
-            boleta.println(
-                    "           DISFRUTE SU PELÍCULA"
-            );
-
-            boleta.println(
-                    "================================================"
-            );
-
+            boleta.println("================================================");
+            boleta.println("          ¡GRACIAS POR SU COMPRA!");
+            boleta.println("           DISFRUTE SU PELÍCULA");
+            boleta.println("================================================");
 
             // Cerrar archivo
             boleta.close();
 
-
             System.out.println();
-            System.out.println(
-                    "📄 Boleta generada correctamente."
-            );
-
-            System.out.println(
-                    "Archivo: " +
-                            nombreArchivo
-            );
-
+            System.out.println("📄 Boleta generada correctamente.");
+            System.out.println("Archivo: " + nombreArchivo);
 
         } catch (IOException e) {
-
-            System.out.println(
-                    "❌ Error al generar la boleta."
-            );
+            System.out.println("❌ Error al generar la boleta.");
         }
     }
-
 
     // ============================================================
     // 16. VERIFICAR ASIENTO
     // ============================================================
-
     public static void menuVerificarAsiento() {
-
         int repetir;
-
         do {
-
-            int funcion =
-                    seleccionarFuncion();
-
-
+            int funcion = seleccionarFuncion();
             if (funcion == -1) {
-
                 return;
             }
+            mostrarMapaAsientos(funcion);
+            System.out.print("\nNúmero de asiento: ");
 
+            int numero = sc.nextInt();
 
-            mostrarMapaAsientos(
-                    funcion
-            );
-
-
-            System.out.print(
-                    "\nNúmero de asiento: "
-            );
-
-
-            int numero =
-                    sc.nextInt();
-
-
-            if (numero < 1 ||
-                    numero > 50) {
-
-                System.out.println(
-                        "❌ Número de asiento inválido."
-                );
-
+            if (numero < 1 || numero > 50) {
+                System.out.println("❌ Número de asiento inválido.");
             } else {
-
-
-                int posicion =
-                        numero - 1;
-
-
+                int posicion = numero - 1;
                 if (asientos[funcion][posicion]) {
-
-                    System.out.println(
-                            "❌ Asiento " +
-                                    numero +
-                                    ": OCUPADO"
-                    );
-
+                    System.out.println("❌ Asiento " + numero + ": OCUPADO");
                 } else {
-
-                    System.out.println(
-                            "✅ Asiento " +
-                                    numero +
-                                    ": DISPONIBLE"
-                    );
+                    System.out.println("✅ Asiento " + numero + ": DISPONIBLE");
                 }
             }
-
-
-            System.out.println(
-                    "\n1. Verificar otro asiento"
-            );
-
-            System.out.println(
-                    "0. Volver al menú principal"
-            );
-
-
-            System.out.print(
-                    "Seleccione: "
-            );
-
-
-            repetir =
-                    sc.nextInt();
-
-
+            System.out.println("\n1. Verificar otro asiento");
+            System.out.println("0. Volver al menú principal");
+            System.out.print("Seleccione: ");
+            repetir = sc.nextInt();
         } while (repetir == 1);
     }
-
 
     // ============================================================
     // 17. DISPONIBILIDAD
     // ============================================================
-
     public static void menuDisponibilidad() {
-
         int repetir;
-
         do {
-
-            int funcion =
-                    seleccionarFuncion();
-
-
+            int funcion = seleccionarFuncion();
             if (funcion == -1) {
-
                 return;
             }
-
-
             int disponibles = 0;
-
             int ocupados = 0;
-
-
-            for (int i = 0;
-                 i < asientos[funcion].length;
-                 i++) {
-
-
+            for (int i = 0; i < asientos[funcion].length; i++) {
                 if (asientos[funcion][i]) {
-
                     ocupados++;
-
                 } else {
-
                     disponibles++;
                 }
             }
 
-
             System.out.println();
-            System.out.println(
-                    "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
-            );
+            System.out.println("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            System.out.println("┃          DISPONIBILIDAD DE ASIENTOS          ┃");
+            System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            System.out.println("🎬 Película    : " + peliculas[funcion]);
+            System.out.println("🕐 Horario     : " + horarios[funcion]);
+            System.out.println("✨ Disponibles : " + disponibles);
+            System.out.println("❌ Ocupados    : " + ocupados);
+            System.out.println("💺 Total       : " + asientos[funcion].length);
+            System.out.println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+            System.out.println("\n1. Consultar otra función");
+            System.out.println("0. Volver al menú principal");
+            System.out.print("Seleccione: ");
 
-            System.out.println(
-                    "┃         DISPONIBILIDAD DE ASIENTOS          ┃"
-            );
-
-            System.out.println(
-                    "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
-            );
-
-
-            System.out.println(
-                    "🎬 Película    : " +
-                            peliculas[funcion]
-            );
-
-            System.out.println(
-                    "🕐 Horario     : " +
-                            horarios[funcion]
-            );
-
-            System.out.println(
-                    "✨ Disponibles : " +
-                            disponibles
-            );
-
-            System.out.println(
-                    "❌ Ocupados    : " +
-                            ocupados
-            );
-
-            System.out.println(
-                    "💺 Total       : " +
-                            asientos[funcion].length
-            );
-
-
-            System.out.println(
-                    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            );
-
-
-            System.out.println(
-                    "\n1. Consultar otra función"
-            );
-
-            System.out.println(
-                    "0. Volver al menú principal"
-            );
-
-
-            System.out.print(
-                    "Seleccione: "
-            );
-
-
-            repetir =
-                    sc.nextInt();
-
-
+            repetir = sc.nextInt();
         } while (repetir == 1);
     }
-
 
     // ============================================================
     // 18. RESUMEN DE VENTAS
     // ============================================================
-
     public static void mostrarResumenVentas() {
 
         System.out.println();
-        System.out.println(
-                "╔══════════════════════════════════════════════╗"
-        );
-
-        System.out.println(
-                "║            📊 RESUMEN DE VENTAS             ║"
-        );
-
-        System.out.println(
-                "╚══════════════════════════════════════════════╝"
-        );
-
-
-        System.out.println(
-                "🎟 Entradas vendidas : " +
-                        entradasVendidas
-        );
-
-
-        System.out.printf(
-                "💰 Total recaudado   : S/ %.2f%n",
-                totalRecaudado
-        );
-
+        System.out.println("╔══════════════════════════════════════════════╗");
+        System.out.println("║             📊 RESUMEN DE VENTAS             ║");
+        System.out.println("╚══════════════════════════════════════════════╝");
+        System.out.println("🎟 Entradas vendidas : " + entradasVendidas);
+        System.out.printf("💰 Total recaudado   : S/ %.2f%n", totalRecaudado);
 
         // IGV total incluido en las ventas
-        double valorVentaTotal =
-                totalRecaudado /
-                        (1 + IGV);
+        double valorVentaTotal = totalRecaudado / (1 + IGV);
+        double igvTotal = totalRecaudado - valorVentaTotal;
 
-
-        double igvTotal =
-                totalRecaudado -
-                        valorVentaTotal;
-
-
-        System.out.printf(
-                "📋 Valor de venta    : S/ %.2f%n",
-                valorVentaTotal
-        );
-
-
-        System.out.printf(
-                "📋 IGV incluido      : S/ %.2f%n",
-                igvTotal
-        );
-
-
-        System.out.println(
-                "════════════════════════════════════════════════"
-        );
+        System.out.printf("📋 Valor de venta    : S/ %.2f%n", valorVentaTotal);
+        System.out.printf("📋 IGV incluido      : S/ %.2f%n", igvTotal);
+        System.out.println("════════════════════════════════════════════════");
     }
-
 
     // ============================================================
     // 19. PAUSA / VOLVER AL MENÚ
     // ============================================================
-
     public static void pausaMenu() {
-
         int volver;
 
         do {
+            System.out.println("\n0. Volver al menú principal");
+            System.out.print("Seleccione: ");
 
-            System.out.println(
-                    "\n0. Volver al menú principal"
-            );
-
-            System.out.print(
-                    "Seleccione: "
-            );
-
-
-            volver =
-                    sc.nextInt();
-
+            volver = sc.nextInt();
 
             if (volver != 0) {
-
-                System.out.println(
-                        "❌ Opción incorrecta. Ingrese 0."
-                );
+                System.out.println("❌ Opción incorrecta. Ingrese 0.");
             }
-
-
         } while (volver != 0);
     }
 }
